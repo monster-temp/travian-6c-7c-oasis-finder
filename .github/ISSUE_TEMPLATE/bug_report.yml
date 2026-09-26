@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem without sharing private game data.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include cookies, authentication tokens, private reports, or identifiable player data.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Use generic or redacted coordinates.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+  - type: textarea
+    id: console
+    attributes:
+      label: Redacted console output
+      render: shell

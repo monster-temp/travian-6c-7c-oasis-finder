@@ -1,0 +1,19 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Generated scans can expose a server, center coordinate, and strategy data.
+report*.html
+report*.json
+travian-*-report-*.html
+travian-*-report*.json
+
+# Private ChatGPT Sites/deployment material is not part of this repository.
+.openai/
+site/

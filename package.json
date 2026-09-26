@@ -1,0 +1,21 @@
+{
+  "name": "travian-6c-7c-oasis-finder",
+  "version": "1.0.0",
+  "description": "Find 6c/7c Travian villages and evaluate crop-oasis competition.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "bun build ./main.ts --outfile ./build/main.js",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "travian",
+    "cropper",
+    "oasis",
+    "map"
+  ],
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
