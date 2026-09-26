@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Find 6c/7c Travian villages and evaluate crop-oasis competition.",
   "type": "module",
+  "packageManager": "bun@1.0.22",
   "license": "UNLICENSED",
   "scripts": {
     "build": "bun build ./main.ts --outfile ./build/main.js",
